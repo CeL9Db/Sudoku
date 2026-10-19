@@ -1,5 +1,11 @@
 package gl_project.sudoku;
 
+import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.stage.Stage;
+
 /**
  * Hello world!
  *
@@ -10,8 +16,7 @@ public class App
     {
         System.out.println( "Hello World!" );
     }*/
-	@Override
-    public void start(Stage stage) {
+	public void start(Stage stage) {
         Circle cercle = new Circle(150, 100, 50);
         cercle.setFill(Color.BLUE);
 
