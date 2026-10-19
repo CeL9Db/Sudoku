@@ -1,16 +1,10 @@
 package gl_project.sudoku;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
-import javafx.stage.Stage;
 /**
  * Hello world!
  *
  */
-public class App extends Application  
+public class App 
 {
     /*public static void main( String[] args )
     {
